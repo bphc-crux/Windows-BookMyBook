@@ -1,0 +1,39 @@
+﻿<SettingsFlyout
+    x:Class="BookMyBook.SettingsFlyout1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookMyBook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="About"
+    d:DesignWidth="346" HeaderBackground="#FF0E3A04">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Description" FontSize="20" />
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap" FontSize="20">
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="While going through the prices of your favorite book, you some-how thought those to be over-priced and checking prices at different stores would be time-taking."/>
+            	<LineBreak/>
+            	<Run Text="       But now, &quot;BookMyBook&quot; is brought to you which shows you the prices of your favorite book at 7 different online stores (Flipkart, Infibeam, Homeshop18, Amazon, Crossword, uRead, and Landmark) thereby giving you an option to choose and also buy."/>
+            </TextBlock>
+
+        </StackPanel>
+        <HyperlinkButton Content="Description" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigateUri="http://srujanjha.wix.com/bookmybook#!about-bookmybook/c1se"/>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>

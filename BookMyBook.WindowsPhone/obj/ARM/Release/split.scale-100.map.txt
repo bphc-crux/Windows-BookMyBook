@@ -1,0 +1,16 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\split.scale-100.pri"			"resources.pri"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\WideLogo.scale-100.png"			"Assets\WideLogo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\Wide310x150Logo.scale-100.png"			"Assets\Wide310x150Logo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\Square71x71Logo.scale-100.png"			"Assets\Square71x71Logo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\Square70x70Logo.scale-100.png"			"Assets\Square70x70Logo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\Square44x44.scale-100.png"			"Assets\Square44x44.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\Square310x310Logo.scale-100.png"			"Assets\Square310x310Logo.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\SplashScreenWP.scale-100.png"			"Assets\SplashScreenWP.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\SplashScreen.scale-100.png"			"Assets\SplashScreen.scale-100.png"
+"C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\Logo.scale-100.png"			"Assets\Logo.scale-100.png"

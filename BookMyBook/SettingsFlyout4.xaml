@@ -1,0 +1,37 @@
+﻿<SettingsFlyout
+    x:Class="BookMyBook.SettingsFlyout4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookMyBook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="ISBN/EAN"
+    d:DesignWidth="346" HeaderBackground="#FF0E3A04">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Introduction" FontSize="20" />
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap" FontSize="15">
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The International Standard Book Number (ISBN) is a unique numeric commercial book identifier based upon the 9-digit Standard Book Numbering (SBN) code created by Gordon Foster, Emeritus Professor of Statistics at Trinity College, Dublin, for the booksellers and stationersWHSmith and others in 1965. The 10-digit ISBN format was developed by the International Organization for Standardization (ISO) and was published in 1970 as international standard ISO 2108. (However, the 9-digit SBN code was used in the United Kingdom until 1974.) An SBN may be converted to an ISBN by prepending the digit &quot;0&quot;. ISO has appointed the International ISBN Agency as the registration authority for ISBN worldwide and the ISBN Standard is developed under the control of ISO Technical Committee 46/Subcommittee 9 TC 46/SC 9. The ISO on-line facility only refers back to 1978. Since 1 January 2007, ISBNs have contained 13 digits, a format that is compatible with &quot;Bookland&quot; EAN-13s. An EAN-13 barcode (originally European Article Number, but now renamed International Article Number even though the abbreviation EAN has been retained) is a 13 digit (12 data and 1 check) barcoding standard which is a superset of the original 12-digit Universal Product Code (UPC) system developed in the United States. The EAN-13 barcode is defined by the standards organization GS1.The EAN-13 barcodes are used worldwide for marking products often sold at retail point of sale. The numbers encoded in EAN-13 bar codes are product identification numbers, which are also called Japanese Article Number (JAN) in Japan. All the numbers encoded in UPC and EAN barcodes are known as Global Trade Item Numbers (GTIN), and they can be encoded in other GS1 barcodes.The less commonly used EAN-8 barcodes are used also for marking retail goods; however, they are usually reserved for smaller items, for exampleconfectionery.2-digit (EAN 2) and 5-digit (EAN 5) supplemental barcodes may be added for a total of 14 or 17 data digits. These are generally used for periodicals (to indicate the current year's issue number ), or books and weighed products like food (to indicate the manufacturer suggested retail price or MSRP ), respectively."/>
+            </TextBlock>
+
+        </StackPanel>
+
+        <!-- Define more Content Sections below as necessary -->
+        <HyperlinkButton Content="ISBN/EAN" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigateUri="http://srujanjha.wix.com/bookmybook#!isbn-ean/ccjp"/>
+
+    </StackPanel>
+</SettingsFlyout>

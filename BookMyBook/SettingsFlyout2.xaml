@@ -1,0 +1,45 @@
+﻿<SettingsFlyout
+    x:Class="BookMyBook.SettingsFlyout2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookMyBook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="Features"
+    d:DesignWidth="346" HeaderBackground="#FF0E3A04">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Features" FontSize="20" />
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap" FontSize="20">
+            	<Run Text="# BookMyBook checks prices from 7 different online stores namely: Flipkart, Infibeam, Crossword, Landmark, Amazon, Homeshop18 and uRead"/>
+            	<Run Text="."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="# It also provides you a platform to buy you book from these 7 stores you choose."/>
+            	<LineBreak/>
+            	<Run Text="# The low prices are highlighted for better user-experience."/>
+            	<LineBreak/>
+            	<Run Text="# It also shows an image of the book."/>
+            	<LineBreak/>
+            	<Run Text="# Support for 4 different languages(English, Hindi, French, Spanish) is provided. # Lastly, all you need is the ISBN/EAN of the book."/>
+            </TextBlock>
+
+        </StackPanel>
+        <HyperlinkButton Content="Features" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigateUri="http://srujanjha.wix.com/bookmybook#!features/c1ylq"/>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SRUJAN</Machine>
+    <WindowsUser>Srujan Jha</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>44162SrujanJha.BookMyBook</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\BookMyBook.exe">
+      <PackagePath>BookMyBook.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\AdDuplexControlsXaml\8.1.0.0\References\CommonConfiguration\neutral\AdDuplex.Controls.winmd">
+      <PackagePath>AdDuplex.Controls.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\AdDuplexControlsXaml\8.1.0.0\References\CommonConfiguration\neutral\AdDuplex.WinRT.winmd">
+      <PackagePath>AdDuplex.WinRT.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\NotificationsExtensions.winmd">
+      <PackagePath>NotificationsExtensions.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\packages\ZXing.Net.0.14.0.1\lib\windows8\ZXing.winmd">
+      <PackagePath>ZXing.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\packages\HtmlAgilityPack.1.4.6\lib\winrt45\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\ajax-loader_new-47c5115b.gif">
+      <PackagePath>Assets\ajax-loader_new-47c5115b.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\website_loading_time.gif">
+      <PackagePath>Assets\website_loading_time.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Book-iPad-wallpaper-Library.jpg">
+      <PackagePath>Assets\Book-iPad-wallpaper-Library.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Books-06.jpg">
+      <PackagePath>Assets\Books-06.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\book_blank.jpg">
+      <PackagePath>Assets\book_blank.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\library_book.jpg">
+      <PackagePath>Assets\library_book.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Not_available_icon.jpg">
+      <PackagePath>Assets\Not_available_icon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\download.jpg">
+      <PackagePath>Assets\download.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img1.jpg">
+      <PackagePath>Assets\img1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img2.jpg">
+      <PackagePath>Assets\img2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img3.jpg">
+      <PackagePath>Assets\img3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img4.jpg">
+      <PackagePath>Assets\img4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img5.jpg">
+      <PackagePath>Assets\img5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img6.jpg">
+      <PackagePath>Assets\img6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img7.jpg">
+      <PackagePath>Assets\img7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\isbn_13.jpg">
+      <PackagePath>Assets\isbn_13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Refresh - Copy.png">
+      <PackagePath>Assets\Refresh - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Refresh.png">
+      <PackagePath>Assets\Refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square310x310Logo.scale-140.png">
+      <PackagePath>Assets\Square310x310Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square310x310Logo.scale-180.png">
+      <PackagePath>Assets\Square310x310Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square310x310Logo.scale-80.png">
+      <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square70x70Logo.scale-140.png">
+      <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square70x70Logo.scale-180.png">
+      <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Untitled.png">
+      <PackagePath>Assets\Untitled.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Wide310x150Logo.scale-140.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Wide310x150Logo.scale-180.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Assets\Wide310x150Logo.scale-80.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\amazon.png">
+      <PackagePath>Assets\amazon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\crossword.png">
+      <PackagePath>Assets\crossword.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\feature.search.png">
+      <PackagePath>Assets\feature.search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\flipkart.png">
+      <PackagePath>Assets\flipkart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\homeshop18.png">
+      <PackagePath>Assets\homeshop18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\img8.png">
+      <PackagePath>Assets\img8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\infibeam.png">
+      <PackagePath>Assets\infibeam.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\landmark.png">
+      <PackagePath>Assets\landmark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\questionmark.png">
+      <PackagePath>Assets\questionmark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\t2.png">
+      <PackagePath>Assets\t2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\t3.png">
+      <PackagePath>Assets\t3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\t4.png">
+      <PackagePath>Assets\t4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\t5.png">
+      <PackagePath>Assets\t5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\t6.png">
+      <PackagePath>Assets\t6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\t7.png">
+      <PackagePath>Assets\t7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\uRead.png">
+      <PackagePath>Assets\uRead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.Shared\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\AppbarContent.xbf">
+      <PackagePath>AppbarContent.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\ItemsPage1.xbf">
+      <PackagePath>ItemsPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SettingsFlyout1.xbf">
+      <PackagePath>SettingsFlyout1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SettingsFlyout2.xbf">
+      <PackagePath>SettingsFlyout2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SettingsFlyout3.xbf">
+      <PackagePath>SettingsFlyout3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SettingsFlyout4.xbf">
+      <PackagePath>SettingsFlyout4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SettingsFlyout5.xbf">
+      <PackagePath>SettingsFlyout5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SplitPage1.xbf">
+      <PackagePath>SplitPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\SplitPage2.xbf">
+      <PackagePath>SplitPage2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\AdDuplex.Controls\Themes\Generic.xbf">
+      <PackagePath>AdDuplex.Controls\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\BookMyBook.xr.xml">
+      <PackagePath>BookMyBook.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\BookMyBook\BookMyBook.WindowsPhone\BookMyBook.WindowsPhone.csproj;x86

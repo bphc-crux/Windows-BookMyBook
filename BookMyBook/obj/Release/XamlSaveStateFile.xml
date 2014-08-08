@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\bookmybook\obj\release\intermediatexaml\bookmybook.exe" HashGuid="dda689ef-3fec-9ec0-79e1-85be31f2806b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\adduplexcontrolsxaml\8.1.0.0\references\commonconfiguration\neutral\adduplex.controls.winmd" HashGuid="da4a766f-914b-be23-185f-5cbc10245063" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\adduplexcontrolsxaml\8.1.0.0\references\commonconfiguration\neutral\adduplex.winrt.winmd" HashGuid="96f0259b-2d02-1fa8-f218-8b27941b7029" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\packages\htmlagilitypack.1.4.6\lib\winrt45\htmlagilitypack.dll" HashGuid="f2c9a4ce-31d6-6a71-5c53-58cd8e71df15" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\bookmybook\notificationsextensions.winmd" HashGuid="47bdb5c7-fcfd-a765-073f-e5d2eaa6da61" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\packages\zxing.net.0.14.0.1\lib\windows8\zxing.winmd" HashGuid="a78fc7f8-dd46-b4f1-5011-27b2896bf3e2" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

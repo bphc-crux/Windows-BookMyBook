@@ -1,0 +1,191 @@
+﻿<UserControl
+    x:Class="BookMyBook.fly"
+    xmlns:local="using:BookMyBook"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="768"
+    d:DesignWidth="346">
+        <!-- Modify this layout to match your app -->
+    <UserControl.Resources>
+        <Style x:Key="SettingsBackButtonStyle" TargetType="Button">
+            <Setter Property="MinWidth" Value="0"/>
+            <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="26.66667"/>
+            <Setter Property="AutomationProperties.AutomationId" Value="BackButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Back"/>
+            <Setter Property="AutomationProperties.ItemType" Value="Navigation Button"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <!-- This next block defines the back arrow used in the header -->
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="RootGrid" Width="30" Height="30">
+                            <Grid Margin="-6,-6,0,0">
+                                <TextBlock x:Name="BackgroundGlyph" Text="&#xE0D4;" Foreground="Black"/>
+                                <TextBlock x:Name="NormalGlyph" Text="" Foreground="White"/>
+                                <TextBlock x:Name="ArrowGlyph" Text="&#xE0C4;" Foreground="LightGray" Opacity="0"/>
+                            </Grid>
+                            <Rectangle
+                            x:Name="FocusVisualWhite"
+                            IsHitTestVisible="False"
+                            Stroke="White"
+                            StrokeEndLineCap="Square"
+                            StrokeDashArray="1,1"
+                            Opacity="0"
+                            StrokeDashOffset="1.5"/>
+                            <Rectangle
+                            x:Name="FocusVisualBlack"
+                            IsHitTestVisible="False"
+                            Stroke="Black"
+                            StrokeEndLineCap="Square"
+                            StrokeDashArray="1,1"
+                            Opacity="0"
+                            StrokeDashOffset="0.5"/>
+
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal" />
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="DarkGray"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="NormalGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="LightGray"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <DoubleAnimation
+                                            Storyboard.TargetName="ArrowGlyph"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1"
+                                            Duration="0"/>
+                                            <DoubleAnimation
+                                            Storyboard.TargetName="NormalGlyph"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0"
+                                            Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                            Storyboard.TargetName="FocusVisualWhite"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1"
+                                            Duration="0"/>
+                                            <DoubleAnimation
+                                            Storyboard.TargetName="FocusVisualBlack"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1"
+                                            Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused" />
+                                    <VisualState x:Name="PointerFocused" />
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <!-- This section describes the text and layout of the elements that are -->
+        <!-- displayed in the Flyout window.                                     -->
+        <Border BorderBrush="Black" BorderThickness="1,0,0,0">
+            <Grid Background="Gray" VerticalAlignment="Stretch">
+                <!-- Root grid definition -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!-- Header area for panel -->
+                <Grid Background="Black" Grid.Row="0">
+
+                    <Grid Margin="40,32,17,13">
+
+                        <Grid.Transitions>
+                            <TransitionCollection>
+                                <EntranceThemeTransition FromHorizontalOffset="50" />
+                            </TransitionCollection>
+                        </Grid.Transitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                    <Button Click="PrivacyBackClicked" Margin="0,3,0,0" Grid.Column="0" Style="{StaticResource SettingsBackButtonStyle}" HorizontalAlignment="Left"   />
+
+                    <TextBlock Margin="10,0,0,0" Grid.Column="1" FontFamily="Segoe UI" FontWeight="SemiLight" FontSize="24.6667" Text="Privacy" HorizontalAlignment="Left" />
+
+                        <Image Source="Assets/SmallLogo.png" HorizontalAlignment="Right" Grid.Column="2" Margin="0,0,6,0" />
+
+                    </Grid>
+
+                </Grid>
+
+                <!-- Settings panel content -->
+                <Grid Grid.Row="1" Margin="40,24,23,0" VerticalAlignment="Top">
+                    <Grid.Transitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromHorizontalOffset="120" />
+                        </TransitionCollection>
+                    </Grid.Transitions>
+                    <!-- Add your privacy statement text or a link to your privacy statement here  -->
+                <TextBlock x:Name="privacyStatementText" Margin="0,0,0,-627" FontFamily="Comic Sans MS" FontSize="19" Width="280" Height="627" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="True" TextWrapping="Wrap" >
+                	<Run Text="How we protect your data..."/>
+                	<LineBreak/>
+                	<Run/>
+                	<LineBreak/>
+                	<Run Text="The Privacy Policy of the BookMyBook covers the following statements:"/>
+                	<LineBreak/>
+                	<Run/>
+                	<LineBreak/>
+                	<Run Text="* "/>
+                	<Run Text="BookMyBook makes use of internet connection to find the prices from different online stores."/>
+                	<LineBreak/>
+                	<Run Text="* "/>
+                	<Run Text="However, BookMyBook "/>
+                	<Run Text="does "/>
+                	<Run Text="not "/>
+                	<Run Text="collect your personal information"/>
+                	<Run Text=" or "/>
+                	<Run Text="share any of the personal data"/>
+                	<Run Text="."/>
+                	<LineBreak/>
+                	<Run/>
+                	<Run Text="* "/>
+                	<Run Text="BookMyBook "/>
+                	<Run Text="does not use any of the folders, files stored on your machine"/>
+                	<Run Text="."/>
+                	<LineBreak/>
+                	<Run Text="* Neither me (the publisher) nor "/>
+                	<Run Text="BookMyBook"/>
+                	<Run Text=" is responsible to any of your data loss or any unforeseen grievances."/>
+                </TextBlock>
+            </Grid>
+
+            </Grid>
+        </Border>
+    </UserControl>
+

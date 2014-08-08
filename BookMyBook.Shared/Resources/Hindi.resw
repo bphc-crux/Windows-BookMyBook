@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Amazon" xml:space="preserve">
+    <value>अमेज़न</value>
+  </data>
+  <data name="Crossword" xml:space="preserve">
+    <value>क्रॉसवर्ड</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>पुस्तक का ISBN / EAN दर्ज करें</value>
+  </data>
+  <data name="Flipkart" xml:space="preserve">
+    <value>फ्लिपकार्ट</value>
+  </data>
+  <data name="Homeshop18" xml:space="preserve">
+    <value>होमशॉप18</value>
+  </data>
+  <data name="Infibeam" xml:space="preserve">
+    <value>इन्फिबीम</value>
+  </data>
+  <data name="Landmark" xml:space="preserve">
+    <value>लेन्डमार्क</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>बुक माइ बुक</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>गोपनीयता नीति</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>सभी चुनें</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>निवेदन करें</value>
+  </data>
+  <data name="uRead" xml:space="preserve">
+    <value>यू-रीड</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>वेबसाइट</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>पिछला</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>आगे</value>
+  </data>
+  <data name="na" xml:space="preserve">
+    <value>अनुपलब्ध</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>बांटे</value>
+  </data>
+  <data name="Text1" xml:space="preserve">
+    <value>हम आप के लिए पुस्तकें जमा कर रहे हैं ...</value>
+  </data>
+  <data name="Text2" xml:space="preserve">
+    <value>हम आप के लिए पुस्तकों की व्यवस्था कर रहे हैं ...</value>
+  </data>
+  <data name="Text3" xml:space="preserve">
+    <value>आप को देखने के लिए किताबें अंत में व्यवस्थित कर रहे हैं ...</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>आईएसबीएन / EAN 10 या 13 अंक होने चाहिए.</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>एक वैध आईएसबीएन / EAN दर्ज करें.</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>आईएसबीएन / EAN केवल अंक होने चाहिए.</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>दुकानों के कम से कम एक आगे बढ़ने के लिए चयनित किया जाना चाहिए.</value>
+  </data>
+  <data name="Settings1" xml:space="preserve">
+    <value>बारे में</value>
+  </data>
+  <data name="Settings2" xml:space="preserve">
+    <value>विशेषताएँ</value>
+  </data>
+  <data name="Settings3" xml:space="preserve">
+    <value>आभार सूची</value>
+  </data>
+  <data name="Settings4" xml:space="preserve">
+    <value>आईएसबीएन</value>
+  </data>
+  <data name="Settings5" xml:space="preserve">
+    <value>गोपनीयता नीति</value>
+  </data>
+  <data name="Settings6" xml:space="preserve">
+    <value>मदद</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>होमपेज</value>
+  </data>
+  <data name="Privacy1" xml:space="preserve">
+    <value>हम आपके डेटा की सुरक्षा कैसे करते हैँ ...</value>
+  </data>
+  <data name="Privacy2" xml:space="preserve">
+    <value>BookMyBook की गोपनीयता नीति को निम्नलिखित बयान शामिल हैं:</value>
+  </data>
+  <data name="Privacy3" xml:space="preserve">
+    <value>BookMyBook विभिन्न ऑनलाइन स्टोर से कीमतों को खोजने के लिए इंटरनेट कनेक्शन का उपयोग करता है।</value>
+  </data>
+  <data name="Privacy4" xml:space="preserve">
+    <value>हालांकि, BookMyBook आपकी व्यक्तिगत जानकारी एकत्र या व्यक्तिगत डेटा का कोई हिस्सा नहीं करता है।</value>
+  </data>
+  <data name="Privacy5" xml:space="preserve">
+    <value>BookMyBook फ़ोल्डर्स के किसी भी, आपकी मशीन पर संग्रहीत फ़ाइलों का उपयोग नहीं करता है।</value>
+  </data>
+  <data name="Privacy6" xml:space="preserve">
+    <value>मुझे (प्रकाशक) और न ही BookMyBook न तो आपके डेटा हानि या किसी भी अप्रत्याशित शिकायतों में से किसी का भी जिम्मेदार है।</value>
+  </data>
+  <data name="tx1" xml:space="preserve">
+    <value>दुकान का नाम</value>
+  </data>
+  <data name="tx2" xml:space="preserve">
+    <value>मूल्य</value>
+  </data>
+  <data name="tx3" xml:space="preserve">
+    <value>पुनः जाँच</value>
+  </data>
+</root>

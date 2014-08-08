@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="44162SrujanJha.BookMyBook" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>80, 100</Scale>
+			<TargetSize>48, 32, 256, 16</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="English">
+			<NamedResource name="Amazon" uri="ms-resource://44162SrujanJha.BookMyBook/English/Amazon">
+				<Candidate type="String">
+					<Value>Amazon</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Back" uri="ms-resource://44162SrujanJha.BookMyBook/English/Back">
+				<Candidate type="String">
+					<Value>Back</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Crossword" uri="ms-resource://44162SrujanJha.BookMyBook/English/Crossword">
+				<Candidate type="String">
+					<Value>Crossword</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Enter" uri="ms-resource://44162SrujanJha.BookMyBook/English/Enter">
+				<Candidate type="String">
+					<Value>Enter the ISBN /EAN of the book</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Flipkart" uri="ms-resource://44162SrujanJha.BookMyBook/English/Flipkart">
+				<Candidate type="String">
+					<Value>Flipkart</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Forward" uri="ms-resource://44162SrujanJha.BookMyBook/English/Forward">
+				<Candidate type="String">
+					<Value>Forward</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Home" uri="ms-resource://44162SrujanJha.BookMyBook/English/Home">
+				<Candidate type="String">
+					<Value>Home</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Homeshop18" uri="ms-resource://44162SrujanJha.BookMyBook/English/Homeshop18">
+				<Candidate type="String">
+					<Value>Homeshop18</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Infibeam" uri="ms-resource://44162SrujanJha.BookMyBook/English/Infibeam">
+				<Candidate type="String">
+					<Value>Infibeam</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Landmark" uri="ms-resource://44162SrujanJha.BookMyBook/English/Landmark">
+				<Candidate type="String">
+					<Value>Landmark</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="na" uri="ms-resource://44162SrujanJha.BookMyBook/English/na">
+				<Candidate type="String">
+					<Value>N/A</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PageTitle" uri="ms-resource://44162SrujanJha.BookMyBook/English/PageTitle">
+				<Candidate type="String">
+					<Value>BookMyBook</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy">
+				<Candidate type="String">
+					<Value>Privacy Policy</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy1" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy1">
+				<Candidate type="String">
+					<Value>How we protect your data...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy2" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy2">
+				<Candidate type="String">
+					<Value>The Privacy Policy of the BookMyBook covers the following statements:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy3" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy3">
+				<Candidate type="String">
+					<Value>BookMyBook makes use of internet connection to find the prices from different online stores.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy4" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy4">
+				<Candidate type="String">
+					<Value>However, BookMyBook does not collect your personal information or share any of the personal data.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy5" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy5">
+				<Candidate type="String">
+					<Value>BookMyBook does not use any of the folders, files stored on your machine.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy6" uri="ms-resource://44162SrujanJha.BookMyBook/English/Privacy6">
+				<Candidate type="String">
+					<Value>Neither me (the publisher) nor BookMyBook is responsible to any of your data loss or any unforeseen grievances.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SelectAll" uri="ms-resource://44162SrujanJha.BookMyBook/English/SelectAll">
+				<Candidate type="String">
+					<Value>SelectAll</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings1" uri="ms-resource://44162SrujanJha.BookMyBook/English/Settings1">
+				<Candidate type="String">
+					<Value>About</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings2" uri="ms-resource://44162SrujanJha.BookMyBook/English/Settings2">
+				<Candidate type="String">
+					<Value>Features</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings3" uri="ms-resource://44162SrujanJha.BookMyBook/English/Settings3">
+				<Candidate type="String">
+					<Value>Credits</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings4" uri="ms-resource://44162SrujanJha.BookMyBook/English/Settings4">
+				<Candidate type="String">
+					<Value>ISBN/EAN</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings5" uri="ms-resource://44162SrujanJha.BookMyBook/English/Settings5">
+				<Candidate type="String">
+					<Value>Privacy</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings6" uri="ms-resource://44162SrujanJha.BookMyBook/English/Settings6">
+				<Candidate type="String">
+					<Value>Help</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Share" uri="ms-resource://44162SrujanJha.BookMyBook/English/Share">
+				<Candidate type="String">
+					<Value>Share</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String1" uri="ms-resource://44162SrujanJha.BookMyBook/English/String1">
+				<Candidate type="String">
+					<Value>The ISBN/EAN should contain 10 or 13 digits.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String2" uri="ms-resource://44162SrujanJha.BookMyBook/English/String2">
+				<Candidate type="String">
+					<Value>Please enter a valid ISBN/EAN.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String3" uri="ms-resource://44162SrujanJha.BookMyBook/English/String3">
+				<Candidate type="String">
+					<Value>The ISBN/EAN should only contain digits.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String4" uri="ms-resource://44162SrujanJha.BookMyBook/English/String4">
+				<Candidate type="String">
+					<Value>Atleast one of the stores should be selected to proceed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Submit" uri="ms-resource://44162SrujanJha.BookMyBook/English/Submit">
+				<Candidate type="String">
+					<Value>Submit</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text1" uri="ms-resource://44162SrujanJha.BookMyBook/English/Text1">
+				<Candidate type="String">
+					<Value>We are piling up the books for you...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text2" uri="ms-resource://44162SrujanJha.BookMyBook/English/Text2">
+				<Candidate type="String">
+					<Value>We are arranging the books for you...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text3" uri="ms-resource://44162SrujanJha.BookMyBook/English/Text3">
+				<Candidate type="String">
+					<Value>Books are finally arranged for you to see...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx1" uri="ms-resource://44162SrujanJha.BookMyBook/English/tx1">
+				<Candidate type="String">
+					<Value>Name of the store</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx2" uri="ms-resource://44162SrujanJha.BookMyBook/English/tx2">
+				<Candidate type="String">
+					<Value>Price</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx3" uri="ms-resource://44162SrujanJha.BookMyBook/English/tx3">
+				<Candidate type="String">
+					<Value>Refresh</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="uRead" uri="ms-resource://44162SrujanJha.BookMyBook/English/uRead">
+				<Candidate type="String">
+					<Value>uRead</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Website" uri="ms-resource://44162SrujanJha.BookMyBook/English/Website">
+				<Candidate type="String">
+					<Value>Website</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AppbarContent.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/AppbarContent.xbf">
+				<Candidate type="Path">
+					<Value>AppbarContent.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BookMyBook.xr.xml" uri="ms-resource://44162SrujanJha.BookMyBook/Files/BookMyBook.xr.xml">
+				<Candidate type="Path">
+					<Value>BookMyBook.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemsPage1.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/ItemsPage1.xbf">
+				<Candidate type="Path">
+					<Value>ItemsPage1.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingsFlyout1.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SettingsFlyout1.xbf">
+				<Candidate type="Path">
+					<Value>SettingsFlyout1.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingsFlyout2.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SettingsFlyout2.xbf">
+				<Candidate type="Path">
+					<Value>SettingsFlyout2.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingsFlyout3.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SettingsFlyout3.xbf">
+				<Candidate type="Path">
+					<Value>SettingsFlyout3.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingsFlyout4.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SettingsFlyout4.xbf">
+				<Candidate type="Path">
+					<Value>SettingsFlyout4.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingsFlyout5.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SettingsFlyout5.xbf">
+				<Candidate type="Path">
+					<Value>SettingsFlyout5.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SplashScreenW8.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SplashScreenW8.png"/>
+			<NamedResource name="SplitPage1.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SplitPage1.xbf">
+				<Candidate type="Path">
+					<Value>SplitPage1.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SplitPage2.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/SplitPage2.xbf">
+				<Candidate type="Path">
+					<Value>SplitPage2.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="AdDuplex.Controls">
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/AdDuplex.Controls/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>AdDuplex.Controls\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="1.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/1.png">
+					<Candidate type="Path">
+						<Value>Assets\1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="2.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/2.png">
+					<Candidate type="Path">
+						<Value>Assets\2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="220px-EAN-13-ISBN-13.svg.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/220px-EAN-13-ISBN-13.svg.png">
+					<Candidate type="Path">
+						<Value>Assets\220px-EAN-13-ISBN-13.svg.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ajax-loader_new-47c5115b.gif" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/ajax-loader_new-47c5115b.gif">
+					<Candidate type="Path">
+						<Value>Assets\ajax-loader_new-47c5115b.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="amazon.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/amazon.png">
+					<Candidate type="Path">
+						<Value>Assets\amazon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Book-iPad-wallpaper-Library.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Book-iPad-wallpaper-Library.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Book-iPad-wallpaper-Library.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Books-06.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Books-06.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Books-06.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="books-icon-512.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/books-icon-512.png">
+					<Candidate type="Path">
+						<Value>Assets\books-icon-512.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="book_blank.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/book_blank.jpg">
+					<Candidate type="Path">
+						<Value>Assets\book_blank.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="crossword.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/crossword.png">
+					<Candidate type="Path">
+						<Value>Assets\crossword.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="download.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/download.jpg">
+					<Candidate type="Path">
+						<Value>Assets\download.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="feature.search.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/feature.search.png">
+					<Candidate type="Path">
+						<Value>Assets\feature.search.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="flipkart.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/flipkart.png">
+					<Candidate type="Path">
+						<Value>Assets\flipkart.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="homeshop18.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/homeshop18.png">
+					<Candidate type="Path">
+						<Value>Assets\homeshop18.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img1.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img1.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img1.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img2.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img2.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img3.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img3.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img4.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img4.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img4.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img5.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img5.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img5.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img6.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img6.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img6.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img7.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img7.jpg">
+					<Candidate type="Path">
+						<Value>Assets\img7.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="img8.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/img8.png">
+					<Candidate type="Path">
+						<Value>Assets\img8.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="infibeam.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/infibeam.png">
+					<Candidate type="Path">
+						<Value>Assets\infibeam.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="isbn-back-cover-large.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/isbn-back-cover-large.jpg">
+					<Candidate type="Path">
+						<Value>Assets\isbn-back-cover-large.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="isbn_13.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/isbn_13.jpg">
+					<Candidate type="Path">
+						<Value>Assets\isbn_13.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Item-88b89819-86d1-4994-8e6f-b5fcc9a383cb.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Item-88b89819-86d1-4994-8e6f-b5fcc9a383cb.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Item-88b89819-86d1-4994-8e6f-b5fcc9a383cb.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="landmark.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/landmark.png">
+					<Candidate type="Path">
+						<Value>Assets\landmark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="library_book.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/library_book.jpg">
+					<Candidate type="Path">
+						<Value>Assets\library_book.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo-328 - Copy.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/logo-328%20-%20Copy.png">
+					<Candidate type="Path">
+						<Value>Assets\logo-328 - Copy.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo-328.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/logo-328.png">
+					<Candidate type="Path">
+						<Value>Assets\logo-328.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Logo.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Not_available_icon.jpg" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Not_available_icon.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Not_available_icon.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="P1 - Copy.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/P1%20-%20Copy.png">
+					<Candidate type="Path">
+						<Value>Assets\P1 - Copy.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="questionmark.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/questionmark.png">
+					<Candidate type="Path">
+						<Value>Assets\questionmark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Refresh - Copy.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Refresh%20-%20Copy.png">
+					<Candidate type="Path">
+						<Value>Assets\Refresh - Copy.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Refresh.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Refresh.png">
+					<Candidate type="Path">
+						<Value>Assets\Refresh.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SmallLogo.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="splash-620x300 - Copy.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/splash-620x300%20-%20Copy.png">
+					<Candidate type="Path">
+						<Value>Assets\splash-620x300 - Copy.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="splash-620x300.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/splash-620x300.png">
+					<Candidate type="Path">
+						<Value>Assets\splash-620x300.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SplashScreen.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenW8.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SplashScreenW8.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreenW8.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenWP.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SplashScreenWP.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreenWP.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenWP.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/SplashScreenWP.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreenWP.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Square310x310Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square310x310Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Square44x44.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square44x44.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Square44x44.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\Square44x44.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Square70x70Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Square70x70Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square70x70Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Square71x71Logo.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/StoreLogo.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t2.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/t2.png">
+					<Candidate type="Path">
+						<Value>Assets\t2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t3.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/t3.png">
+					<Candidate type="Path">
+						<Value>Assets\t3.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t4.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/t4.png">
+					<Candidate type="Path">
+						<Value>Assets\t4.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t5.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/t5.png">
+					<Candidate type="Path">
+						<Value>Assets\t5.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t6.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/t6.png">
+					<Candidate type="Path">
+						<Value>Assets\t6.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t7.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/t7.png">
+					<Candidate type="Path">
+						<Value>Assets\t7.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Untitled.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Untitled.png">
+					<Candidate type="Path">
+						<Value>Assets\Untitled.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="uRead.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/uRead.png">
+					<Candidate type="Path">
+						<Value>Assets\uRead.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="website_loading_time.gif" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/website_loading_time.gif">
+					<Candidate type="Path">
+						<Value>Assets\website_loading_time.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.scale-240.png" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Assets/WideLogo.scale-240.png">
+					<Candidate type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="ReadMe.txt" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Common/ReadMe.txt">
+					<Candidate type="Path">
+						<Value>Common\ReadMe.txt</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StandardStyles.xbf" uri="ms-resource://44162SrujanJha.BookMyBook/Files/Common/StandardStyles.xbf">
+					<Candidate type="Path">
+						<Value>Common\StandardStyles.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="French">
+			<NamedResource name="Amazon" uri="ms-resource://44162SrujanJha.BookMyBook/French/Amazon">
+				<Candidate type="String">
+					<Value>Amazon</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Back" uri="ms-resource://44162SrujanJha.BookMyBook/French/Back">
+				<Candidate type="String">
+					<Value>arrière</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Crossword" uri="ms-resource://44162SrujanJha.BookMyBook/French/Crossword">
+				<Candidate type="String">
+					<Value>Crossword</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Enter" uri="ms-resource://44162SrujanJha.BookMyBook/French/Enter">
+				<Candidate type="String">
+					<Value>Entrez le numéro ISBN / EAN du livre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Flipkart" uri="ms-resource://44162SrujanJha.BookMyBook/French/Flipkart">
+				<Candidate type="String">
+					<Value>Flipkart</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Forward" uri="ms-resource://44162SrujanJha.BookMyBook/French/Forward">
+				<Candidate type="String">
+					<Value>avant</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Home" uri="ms-resource://44162SrujanJha.BookMyBook/French/Home">
+				<Candidate type="String">
+					<Value>page d'accueil</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Homeshop18" uri="ms-resource://44162SrujanJha.BookMyBook/French/Homeshop18">
+				<Candidate type="String">
+					<Value>Homeshop18</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Infibeam" uri="ms-resource://44162SrujanJha.BookMyBook/French/Infibeam">
+				<Candidate type="String">
+					<Value>Infibeam</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Landmark" uri="ms-resource://44162SrujanJha.BookMyBook/French/Landmark">
+				<Candidate type="String">
+					<Value>Landmark</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="na" uri="ms-resource://44162SrujanJha.BookMyBook/French/na">
+				<Candidate type="String">
+					<Value>N/A</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PageTitle" uri="ms-resource://44162SrujanJha.BookMyBook/French/PageTitle">
+				<Candidate type="String">
+					<Value>BookMyBook</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy">
+				<Candidate type="String">
+					<Value>Politique de confidentialité</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy1" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy1">
+				<Candidate type="String">
+					<Value>Comment protégeons-nous vos données ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy2" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy2">
+				<Candidate type="String">
+					<Value>La politique de confidentialité de l'BookMyBook couvre les énoncés suivants:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy3" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy3">
+				<Candidate type="String">
+					<Value>BookMyBook fait usage de la connexion Internet pour trouver les prix de différents magasins en ligne.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy4" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy4">
+				<Candidate type="String">
+					<Value>Cependant, BookMyBook ne recueille pas de renseignements personnels ou partager aucune des données personnelles.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy5" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy5">
+				<Candidate type="String">
+					<Value>BookMyBook n'utilise pas tous les dossiers, les fichiers stockés sur votre ordinateur.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy6" uri="ms-resource://44162SrujanJha.BookMyBook/French/Privacy6">
+				<Candidate type="String">
+					<Value>Ni moi (l'éditeur) ni BookMyBook est responsable de toute perte de vos données ou les griefs imprévus.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SelectAll" uri="ms-resource://44162SrujanJha.BookMyBook/French/SelectAll">
+				<Candidate type="String">
+					<Value>Sélectionner tout</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings1" uri="ms-resource://44162SrujanJha.BookMyBook/French/Settings1">
+				<Candidate type="String">
+					<Value>quelque</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings2" uri="ms-resource://44162SrujanJha.BookMyBook/French/Settings2">
+				<Candidate type="String">
+					<Value>traits</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings3" uri="ms-resource://44162SrujanJha.BookMyBook/French/Settings3">
+				<Candidate type="String">
+					<Value>crédits</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings4" uri="ms-resource://44162SrujanJha.BookMyBook/French/Settings4">
+				<Candidate type="String">
+					<Value>ISBN/EAN</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings5" uri="ms-resource://44162SrujanJha.BookMyBook/French/Settings5">
+				<Candidate type="String">
+					<Value>politique de confidentialité</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings6" uri="ms-resource://44162SrujanJha.BookMyBook/French/Settings6">
+				<Candidate type="String">
+					<Value>aider</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Share" uri="ms-resource://44162SrujanJha.BookMyBook/French/Share">
+				<Candidate type="String">
+					<Value>part</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String1" uri="ms-resource://44162SrujanJha.BookMyBook/French/String1">
+				<Candidate type="String">
+					<Value>L'ISBN / EAN devrait contenir 10 ou 13 chiffres.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String2" uri="ms-resource://44162SrujanJha.BookMyBook/French/String2">
+				<Candidate type="String">
+					<Value>S'il vous plaît entrer un ISBN / EAN valide.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String3" uri="ms-resource://44162SrujanJha.BookMyBook/French/String3">
+				<Candidate type="String">
+					<Value>L'ISBN / EAN ne doit contenir que des chiffres.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String4" uri="ms-resource://44162SrujanJha.BookMyBook/French/String4">
+				<Candidate type="String">
+					<Value>Au moins un de magasins devrait être choisi de procéder.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Submit" uri="ms-resource://44162SrujanJha.BookMyBook/French/Submit">
+				<Candidate type="String">
+					<Value>soumettre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text1" uri="ms-resource://44162SrujanJha.BookMyBook/French/Text1">
+				<Candidate type="String">
+					<Value>Nous accumulons les livres pour vous ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text2" uri="ms-resource://44162SrujanJha.BookMyBook/French/Text2">
+				<Candidate type="String">
+					<Value>Nous organisons les livres pour vous ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text3" uri="ms-resource://44162SrujanJha.BookMyBook/French/Text3">
+				<Candidate type="String">
+					<Value>Les livres sont enfin disposés à vous de voir ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx1" uri="ms-resource://44162SrujanJha.BookMyBook/French/tx1">
+				<Candidate type="String">
+					<Value>Nom de la boutique</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx2" uri="ms-resource://44162SrujanJha.BookMyBook/French/tx2">
+				<Candidate type="String">
+					<Value>prix</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx3" uri="ms-resource://44162SrujanJha.BookMyBook/French/tx3">
+				<Candidate type="String">
+					<Value>Actualiser</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="uRead" uri="ms-resource://44162SrujanJha.BookMyBook/French/uRead">
+				<Candidate type="String">
+					<Value>uRead</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Website" uri="ms-resource://44162SrujanJha.BookMyBook/French/Website">
+				<Candidate type="String">
+					<Value>site Web</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Hindi">
+			<NamedResource name="Amazon" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Amazon">
+				<Candidate type="String">
+					<Value>अमेज़न</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Back" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Back">
+				<Candidate type="String">
+					<Value>पिछला</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Crossword" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Crossword">
+				<Candidate type="String">
+					<Value>क्रॉसवर्ड</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Enter" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Enter">
+				<Candidate type="String">
+					<Value>पुस्तक का ISBN / EAN दर्ज करें</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Flipkart" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Flipkart">
+				<Candidate type="String">
+					<Value>फ्लिपकार्ट</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Forward" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Forward">
+				<Candidate type="String">
+					<Value>आगे</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Home" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Home">
+				<Candidate type="String">
+					<Value>होमपेज</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Homeshop18" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Homeshop18">
+				<Candidate type="String">
+					<Value>होमशॉप18</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Infibeam" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Infibeam">
+				<Candidate type="String">
+					<Value>इन्फिबीम</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Landmark" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Landmark">
+				<Candidate type="String">
+					<Value>लेन्डमार्क</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="na" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/na">
+				<Candidate type="String">
+					<Value>अनुपलब्ध</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PageTitle" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/PageTitle">
+				<Candidate type="String">
+					<Value>बुक माइ बुक</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy">
+				<Candidate type="String">
+					<Value>गोपनीयता नीति</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy1" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy1">
+				<Candidate type="String">
+					<Value>हम आपके डेटा की सुरक्षा कैसे करते हैँ ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy2" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy2">
+				<Candidate type="String">
+					<Value>BookMyBook की गोपनीयता नीति को निम्नलिखित बयान शामिल हैं:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy3" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy3">
+				<Candidate type="String">
+					<Value>BookMyBook विभिन्न ऑनलाइन स्टोर से कीमतों को खोजने के लिए इंटरनेट कनेक्शन का उपयोग करता है।</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy4" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy4">
+				<Candidate type="String">
+					<Value>हालांकि, BookMyBook आपकी व्यक्तिगत जानकारी एकत्र या व्यक्तिगत डेटा का कोई हिस्सा नहीं करता है।</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy5" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy5">
+				<Candidate type="String">
+					<Value>BookMyBook फ़ोल्डर्स के किसी भी, आपकी मशीन पर संग्रहीत फ़ाइलों का उपयोग नहीं करता है।</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy6" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Privacy6">
+				<Candidate type="String">
+					<Value>मुझे (प्रकाशक) और न ही BookMyBook न तो आपके डेटा हानि या किसी भी अप्रत्याशित शिकायतों में से किसी का भी जिम्मेदार है।</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SelectAll" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/SelectAll">
+				<Candidate type="String">
+					<Value>सभी चुनें</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings1" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Settings1">
+				<Candidate type="String">
+					<Value>बारे में</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings2" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Settings2">
+				<Candidate type="String">
+					<Value>विशेषताएँ</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings3" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Settings3">
+				<Candidate type="String">
+					<Value>आभार सूची</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings4" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Settings4">
+				<Candidate type="String">
+					<Value>आईएसबीएन</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings5" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Settings5">
+				<Candidate type="String">
+					<Value>गोपनीयता नीति</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings6" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Settings6">
+				<Candidate type="String">
+					<Value>मदद</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Share" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Share">
+				<Candidate type="String">
+					<Value>बांटे</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String1" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/String1">
+				<Candidate type="String">
+					<Value>आईएसबीएन / EAN 10 या 13 अंक होने चाहिए.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String2" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/String2">
+				<Candidate type="String">
+					<Value>एक वैध आईएसबीएन / EAN दर्ज करें.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String3" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/String3">
+				<Candidate type="String">
+					<Value>आईएसबीएन / EAN केवल अंक होने चाहिए.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String4" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/String4">
+				<Candidate type="String">
+					<Value>दुकानों के कम से कम एक आगे बढ़ने के लिए चयनित किया जाना चाहिए.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Submit" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Submit">
+				<Candidate type="String">
+					<Value>निवेदन करें</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text1" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Text1">
+				<Candidate type="String">
+					<Value>हम आप के लिए पुस्तकें जमा कर रहे हैं ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text2" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Text2">
+				<Candidate type="String">
+					<Value>हम आप के लिए पुस्तकों की व्यवस्था कर रहे हैं ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text3" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Text3">
+				<Candidate type="String">
+					<Value>आप को देखने के लिए किताबें अंत में व्यवस्थित कर रहे हैं ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx1" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/tx1">
+				<Candidate type="String">
+					<Value>दुकान का नाम</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx2" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/tx2">
+				<Candidate type="String">
+					<Value>मूल्य</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx3" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/tx3">
+				<Candidate type="String">
+					<Value>पुनः जाँच</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="uRead" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/uRead">
+				<Candidate type="String">
+					<Value>यू-रीड</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Website" uri="ms-resource://44162SrujanJha.BookMyBook/Hindi/Website">
+				<Candidate type="String">
+					<Value>वेबसाइट</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Spanish">
+			<NamedResource name="Amazon" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Amazon">
+				<Candidate type="String">
+					<Value>Amazon</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Back" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Back">
+				<Candidate type="String">
+					<Value>espalda</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Crossword" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Crossword">
+				<Candidate type="String">
+					<Value>Crossword</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Enter" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Enter">
+				<Candidate type="String">
+					<Value>Introduzca el Libro ISBN / EAN</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Flipkart" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Flipkart">
+				<Candidate type="String">
+					<Value>Flipkart</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Forward" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Forward">
+				<Candidate type="String">
+					<Value>antes</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Home" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Home">
+				<Candidate type="String">
+					<Value>página principal</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Homeshop18" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Homeshop18">
+				<Candidate type="String">
+					<Value>Homeshop18</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Infibeam" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Infibeam">
+				<Candidate type="String">
+					<Value>Infibeam</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Landmark" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Landmark">
+				<Candidate type="String">
+					<Value>Landmark</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="na" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/na">
+				<Candidate type="String">
+					<Value>N/A</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PageTitle" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/PageTitle">
+				<Candidate type="String">
+					<Value>BookMyBook</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy">
+				<Candidate type="String">
+					<Value>Política de privacidad</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy1" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy1">
+				<Candidate type="String">
+					<Value>Cómo protegemos sus datos ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy2" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy2">
+				<Candidate type="String">
+					<Value>La Política de Privacidad del BookMyBook abarca las siguientes declaraciones:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy3" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy3">
+				<Candidate type="String">
+					<Value>BookMyBook hace uso de la conexión a Internet para encontrar los precios de diferentes tiendas en línea.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy4" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy4">
+				<Candidate type="String">
+					<Value>Sin embargo, BookMyBook no recopila su información personal o compartir cualquiera de los datos personales.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy5" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy5">
+				<Candidate type="String">
+					<Value>BookMyBook no utiliza ninguna de las carpetas, los archivos almacenados en su máquina.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Privacy6" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Privacy6">
+				<Candidate type="String">
+					<Value>Ni yo (el editor), ni BookMyBook es responsable de cualquiera de su pérdida de datos o cualquier queja imprevistos.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SelectAll" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/SelectAll">
+				<Candidate type="String">
+					<Value>Seleccione todos</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings1" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Settings1">
+				<Candidate type="String">
+					<Value>acerca de</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings2" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Settings2">
+				<Candidate type="String">
+					<Value>Características</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings3" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Settings3">
+				<Candidate type="String">
+					<Value>Créditos</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings4" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Settings4">
+				<Candidate type="String">
+					<Value>ISBN/EAN</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings5" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Settings5">
+				<Candidate type="String">
+					<Value>política de privacidad</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings6" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Settings6">
+				<Candidate type="String">
+					<Value>ayudar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Share" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Share">
+				<Candidate type="String">
+					<Value>parte</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String1" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/String1">
+				<Candidate type="String">
+					<Value>El ISBN / EAN debe contener 10 o 13 dígitos.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String2" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/String2">
+				<Candidate type="String">
+					<Value>Por favor ingrese el ISBN / EAN válida.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String3" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/String3">
+				<Candidate type="String">
+					<Value>El ISBN / EAN debe contener sólo dígitos.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String4" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/String4">
+				<Candidate type="String">
+					<Value>Al menos una de las tiendas deben ser seleccionados para proceder.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Submit" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Submit">
+				<Candidate type="String">
+					<Value>presentar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text1" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Text1">
+				<Candidate type="String">
+					<Value>Acumulamos libros para usted ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text2" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Text2">
+				<Candidate type="String">
+					<Value>Organizamos los libros para usted ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text3" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Text3">
+				<Candidate type="String">
+					<Value>Los libros están finalmente dispuestos a ...</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx1" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/tx1">
+				<Candidate type="String">
+					<Value>Nombre de la tienda</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx2" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/tx2">
+				<Candidate type="String">
+					<Value>precio</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tx3" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/tx3">
+				<Candidate type="String">
+					<Value>Actualizar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="uRead" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/uRead">
+				<Candidate type="String">
+					<Value>uRead</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Website" uri="ms-resource://44162SrujanJha.BookMyBook/Spanish/Website">
+				<Candidate type="String">
+					<Value>sitio web</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

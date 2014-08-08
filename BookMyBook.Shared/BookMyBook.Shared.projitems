@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3fa4928d-df72-4161-bc51-9c0bbdec525a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BookMyBook</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Resources\English.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Resources\French.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Resources\Hindi.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Resources\Spanish.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Items.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\220px-EAN-13-ISBN-13.svg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ajax-loader_new-47c5115b.gif" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\amazon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Book-iPad-wallpaper-Library.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Books-06.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\books-icon-512.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\book_blank.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\crossword.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\download.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\feature.search.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\flipkart.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\homeshop18.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img4.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img5.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img6.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img7.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\img8.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\infibeam.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\isbn-back-cover-large.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\isbn_13.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Item-88b89819-86d1-4994-8e6f-b5fcc9a383cb.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\landmark.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\library_book.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\logo-328 - Copy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\logo-328.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Not_available_icon.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\P1 - Copy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\questionmark.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Refresh - Copy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Refresh.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-16.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-256.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-32.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-48.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\splash-620x300 - Copy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\splash-620x300.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreenWP.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreenWP.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreenWP.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square310x310Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square310x310Logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square310x310Logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square44x44.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square44x44.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square44x44.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square70x70Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square70x70Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square70x70Logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square70x70Logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square71x71Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\t2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\t3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\t4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\t5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\t6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\t7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Untitled.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\uRead.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\website_loading_time.gif" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-240.png" />
+  </ItemGroup>
+</Project>

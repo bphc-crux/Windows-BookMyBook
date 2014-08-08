@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\bookmybook.windowsphone\obj\x86\release\intermediatexaml\bookmybook.windowsphone.exe" HashGuid="4bd8db77-6c6e-fa8e-9774-17e7044fa349" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\adduplex.winphone.extension\8.5.0.1\references\commonconfiguration\neutral\adduplex.universal.controls.winphone.xaml.winmd" HashGuid="56bfcdce-3558-6b06-b742-8fb8471c01be" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\adduplex.winphone.extension\8.5.0.1\references\commonconfiguration\neutral\adduplex.universal.winphone.winrt.winmd" HashGuid="44846110-42e5-970d-016d-46e080241fd3" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\downloads\app tiles and badges sample\c# and c++\notificationsextensions\bin\release\notificationsextensions.winmd" HashGuid="d2440c94-4aff-a8de-6918-9bc0da0bb08a" />
+    <ReferenceAssembly PathName="c:\users\srujan jha\documents\visual studio 2013\projects\windows8\bookmybook\packages\zxing.net.0.14.0.1\lib\wpa81\zxing.winmd" HashGuid="a78fc7f8-dd46-b4f1-5011-27b2896bf3e2" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

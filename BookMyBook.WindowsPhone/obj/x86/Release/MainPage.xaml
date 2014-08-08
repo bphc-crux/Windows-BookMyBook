@@ -1,0 +1,76 @@
+﻿<Page
+    x:Class="BookMyBook.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookMyBook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   xmlns:ad="using:AdDuplex.Universal.Controls.WinPhone.XAML"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/Book-iPad-wallpaper-Library.jpg"/>
+        </Grid.Background>
+        <StackPanel Margin="10">
+            <Border BorderBrush="White" >
+                <StackPanel Orientation="Horizontal" Margin="10,0,10,0.333">
+                    <StackPanel>
+                        <TextBlock Text="Enter the name of the book" FontSize="20" Foreground="White"/>
+                        <TextBox x:Name="SearchBox"  BorderThickness="5" Width="340"/>
+                    </StackPanel>
+                    <SymbolIcon x:ConnectionId='2' Margin="-55,20,0,0" Height="50" Width="50" Symbol="Find" Foreground="Black"                        />
+                    <!--   <AppBarButton x:Name="Search" HorizontalAlignment="Left"  Click="Search_Click"  Margin="-63,23,0,0" Height="80" Width="60" Foreground="White" Background="White" FontSize="15" Icon="Find"  />-->
+                </StackPanel>
+            </Border>
+            <Border BorderBrush="White" >
+                <StackPanel Orientation="Horizontal" Margin="10,0,10,0.333">
+                    <StackPanel>
+                    <TextBlock Text=" OR Enter the ISBN of the book:" FontSize="20" Foreground="White"/>
+                    <TextBox x:Name="ISBN" InputScope="Number" BorderThickness="5" Width="340"/>
+                    </StackPanel>
+                    <SymbolIcon x:ConnectionId='1' Margin="-55,20,0,0" Height="50" Width="50" Symbol="Find" Foreground="Black"                            />
+                    <!--   <AppBarButton x:Name="Search" HorizontalAlignment="Left"  Click="Search_Click"  Margin="-63,23,0,0" Height="80" Width="60" Foreground="White" Background="White" FontSize="15" Icon="Find"  />-->
+                </StackPanel>
+            </Border>
+            
+            <FlipView x:Name="FlipView" HorizontalAlignment="Left" VerticalAlignment="Top" Width="365" Height="358" TabNavigation="Cycle" Margin="7,0,0,0">
+                <FlipViewItem>
+                    <FlipViewItem.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="Assets/img1.png"/>
+                    </FlipViewItem.Background>
+                </FlipViewItem>
+                <FlipViewItem>
+                    <FlipViewItem.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="Assets/img2.png"/>
+                    </FlipViewItem.Background>
+                </FlipViewItem>
+                <FlipViewItem>
+                    <FlipViewItem.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="Assets/img3.png"/>
+                    </FlipViewItem.Background>
+                </FlipViewItem>
+                <FlipViewItem>
+                    <FlipViewItem.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="Assets/WideLogo.scale-240 - Copy.png"/>
+                    </FlipViewItem.Background>
+                </FlipViewItem>
+
+            </FlipView>
+
+        </StackPanel>
+   </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="#FFBF6B24" >
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:ConnectionId='3' Label="search" Icon="Find"                     />
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='4' Label="about"                    />
+                <AppBarButton x:ConnectionId='5' Label="feedback"                       />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+
